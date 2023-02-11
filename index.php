@@ -13,7 +13,16 @@
     <div class="glide slider">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          <li class="glide__slide invert">
+        <li class="glide__slide invert">
+            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
+              <div class="bg o-8" style="background-image:url(images/slide3.png)"></div>
+              <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="flow.html">
+                  <h6>100x70cm / 39x27,5 inches</h6>
+                  <h1 class="massive"><span class="d-block">Flow</span></h1>
+                </a></div>
+            </div>
+          </li>          
+          <li class="glide__slide">
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
               <div class="bg o-8" style="background-image:url(images/slide2.png)"></div>
               <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="pride.html">
@@ -31,15 +40,6 @@
                   <h1 class="massive"><span class="d-block">Inner self</span></h1>
                 </a>
               </div>
-            </div>
-          </li>
-          <li class="glide__slide invert">
-            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
-              <div class="bg o-8" style="background-image:url(images/slide3.png)"></div>
-              <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="flow.html">
-                  <h6>100x70cm / 39x27,5 inches</h6>
-                  <h1 class="massive"><span class="d-block">Flow</span></h1>
-                </a></div>
             </div>
           </li>
           <li class="glide__slide invert">
