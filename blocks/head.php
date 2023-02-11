@@ -27,7 +27,7 @@
   <link rel="manifest" href="favicon/site.webmanifest">
   <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#777777">
   <meta name="msapplication-TileColor" content="#999999">
-  <meta name="theme-color" content="#999999">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- MailerLite Universal -->
   <script>

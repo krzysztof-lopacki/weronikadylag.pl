@@ -12132,26 +12132,10 @@ section:first-child {
   position: relative;
   padding: 0;
 }
-
-.grid .grid-item:after {
-  content: "";
-  display: block;  
-  padding-bottom: 100%;
-}
-
 .grid .grid-item img {
-  background: #ffffff;
   transition: opacity 0.3s;
   display: block;
-  position: absolute; /* Take your picture out of the flow */
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; /* Make the picture taking the size of it's parent */
-  width: 100%; /* This if for the object-fit */
-  height: 100%; /* This if for the object-fit */
-  object-fit: contain; /* Equivalent of the background-size: cover; of a background-image */
-  object-position: center;
+  width: 100%;
 }
 .grid .grid-item .caption {
   position: absolute;

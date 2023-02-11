@@ -3,35 +3,12 @@
 
 <?php
   $title = "Corbet | Weronika Dyląg";
-  
-  include "blocks/header.php";
+  include "blocks/head.php";
 ?>
 
 <body>
-  <header class="fixed-top ">
-    <div class="navbar"><a class="navbar-brand" href="index.html"> <img class="default" alt="Weronika Dyląg"
-          src="images/logo.svg" style="width: 300px; height: 90px;"><img class="inverted" alt="Weronika Dyląg"
-          src="images/logo-white.svg" style="width: 300px; height: 90px; margin-left: -44px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><span
-          class="toggle-label">Menu</span><span class="toggle-label-close">Close</span><span class="toggle-icon"><span
-            class="line"></span><span class="line"></span></span></button>
-    </div>
-    <ul id="nav">
-      <li class="nav-item active"><a class="nav-link" href="index.html">home-CC</a></li>
-      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-          data-toggle="dropdown">about artist</a>
-        <div class="dropdown-menu"><a class="dropdown-item" href="statement.html">artist statement</a><a
-            class="dropdown-item" href="bio.html">bio</a><a class="dropdown-item" href="cv.html">artistc cv</a></div>
-      </li>
-      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
-          data-toggle="dropdown">works</a>
-        <div class="dropdown-menu"><a class="dropdown-item" href="projects-grid.html">paintings</a><a
-            class="dropdown-item" href="projects-grid-photography.html">photography</a></div>
-      </li>
-      <li class="nav-item"><a class="nav-link" href="blog-grid.html">blog</a></li>
-      <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
-    </ul>
-  </header>
+  <?php include "blocks/header.html"; ?>
+
   <main>
     <div class="glide slider">
       <div class="glide__track" data-glide-el="track">
@@ -85,21 +62,7 @@
       </div>
     </div>
   </main>
-  <footer class="fixed-bottom alt-footer">
-    <div class="container-fluid p-5">
-      <div class="row">
-        <div class="col-sm-6 offset-sm-3 copy text-center">2020 &copy; Corbet Weronika Dyląg. All rights reserved</div>
-        <div class="col-sm-3 text-right">
-          <div class="social"><a class="trigger" href="#">Follow</a>
-            <ul class="social-nav">
-              <li><a href="https://www.instagram.com/w_dylag/?hl=en">Instagram</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="scripts/main.bundle.js"></script>
-</body>
 
+  <?php include "blocks/footer.html"; ?>
+</body>
 </html>
