@@ -3,17 +3,17 @@
 
 <?php
 $title = "Weronika Dyląg | Portfolio";
-include "blocks/head.php";
+include "/blocks/head.php";
 ?>
 
 <body>
-    <?php include "blocks/header.html"; ?>
+    <?php include "/blocks/header.html"; ?>
 
     <main>
         <section>
             <div class="portfolio">
-                
-                <div class="paiting-container">
+
+            <div class="paiting-container">
                     <div class="photo-container">
                         <img src="/content/paintings/flow/flow-portfolio.jpg" class="photo" />
                     </div>
@@ -48,7 +48,7 @@ include "blocks/head.php";
         </section>
     </main>
 
-    <?php include "blocks/footer.html"; ?>
+    <?php include "/blocks/footer.html"; ?>
 </body>
 
 </html>
