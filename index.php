@@ -13,55 +13,92 @@ include "blocks/head.php";
     <div class="glide slider">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
+
           <li class="glide__slide invert">
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
               <div class="bg">
                 <div>
-                  <img src="paintings/flow/flow-slide-vertical.jpg" class="mobile" />
-                  <img src="paintings/flow/flow-slide-horizontal.jpg" class="desktop" />
+                  <img src="/content/paintings/self-awareness/self-awareness-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/self-awareness/self-awareness-slide-horizontal.jpg" class="desktop" />
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="flow.html">
+                <a class="tilt no-link mx-auto" href="/paitings/self-awarness">
+                  <h6>100x100cm / 39x39 inches</h6>
+                  <h1 class="massive"><span class="d-block">Self Awarness</span></h1>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="glide__slide invert">
+            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
+              <div class="bg">
+                <div>
+                  <img src="/content/paintings/reflection/reflection-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/reflection/reflection-slide-horizontal.jpg" class="desktop" />
+                </div>
+              </div>
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="/paitings/reflection">
+                  <h6>100x120cm / 39x47 inches</h6>
+                  <h1 class="massive"><span class="d-block">Reflection</span></h1>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="glide__slide invert">
+            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
+              <div class="bg">
+                <div>
+                  <img src="/content/paintings/reef/reef-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/reef/reef-slide-horizontal.jpg" class="desktop" />
+                </div>
+              </div>
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="/paitings/reef">
+                  <h6>100x100cm / 39x39 inches</h6>
+                  <h1 class="massive"><span class="d-block">Reef</span></h1>
+                </a>
+              </div>
+            </div>
+          </li>       
+          
+          <li class="glide__slide invert">
+            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
+              <div class="bg">
+                <div>
+                  <img src="/content/paintings/june/june-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/june/june-slide-horizontal.jpg" class="desktop" />
+                </div>
+              </div>
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="/paitings/june">
+                  <h6>100x100cm / 39x39 inches</h6>
+                  <h1 class="massive"><span class="d-block">June</span></h1>
+                </a>
+              </div>
+            </div>
+          </li>             
+
+          <li class="glide__slide invert">
+            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
+              <div class="bg">
+                <div>
+                  <img src="/content/paintings/flow/flow-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/flow/flow-slide-horizontal.jpg" class="desktop" />
+                </div>
+              </div>
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="/paitings/flow">
                   <h6>100x70cm / 39x27,5 inches</h6>
                   <h1 class="massive"><span class="d-block">Flow</span></h1>
                 </a>
               </div>
             </div>
           </li>
-          <li class="glide__slide invert">
-            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
-              <div class="bg o-8" style="background-image:url(images/slide2.png)"></div>
-              <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="pride.html">
-                  <h6>110x100cm/43,3x43x3 inches</h6>
-                  <h1 class="massive pt-2"><span class="d-block">Pride</span></h1>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="glide__slide invert">
-            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
-              <div class="bg o-8" style="background-image:url(images/projectnext_innerself.jpg)"></div>
-              <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="innerself.html">
-                  <h6>100x100cm/39x39 inches</h6>
-                  <h1 class="massive"><span class="d-block">Inner self</span></h1>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="glide__slide invert">
-            <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
-              <div class="bg o-8" style="background-image:url(images/slide1.png)"></div>
-              <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="cognitive_flexibility.html">
-                  <h6>100x70cm / 39x27,5 inches</h6>
-                  <h1 class="massive"> <span class="d-block">Cognitive<br>flexibilty</span></h1>
-                </a>
-              </div>
-            </div>
-          </li>
+
         </ul>
       </div>
       <div class="glide__bullets" data-glide-el="controls[nav]">
