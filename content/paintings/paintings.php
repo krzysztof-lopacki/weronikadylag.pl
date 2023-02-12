@@ -12,36 +12,32 @@ include "/blocks/head.php";
     <main>
         <section>
             <div class="portfolio">
+                <?php
+                // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
+                $allPaintings = ["flow", "inner-self"];
 
-            <div class="paiting-container">
-                    <div class="photo-container">
-                        <img src="/content/paintings/flow/flow-portfolio.jpg" class="photo" />
-                    </div>
-                    <div class="description-container">
-                        <h1 class="massive">Flow</h1>
-                        <h2>acrylic on raw linen, 100x70cm (27"x27")</h2>
-                        <p>In positive psychology, a flow state, also known colloquially as being in the zone, is the mental state
-                            in which a person performing some activity is fully immersed in a feeling of energized focus, full
-                            involvement, and enjoyment in the process of the activity.</p>
-                        <p>Available at <a href="https://www.artsy.net/artwork/weronika-dylag-flow">Artsy</a></p>
-                    </div>
-                </div>
+                $requestedPainting = $_GET["query"];
 
-                <div class="paiting-container">
-                    <div class="photo-container">
-                        <img src="/content/paintings/inner-self/inner-self-portfolio.jpg" class="photo" />
+                if (!empty($requestedPainting)) {
+                    $indexOf = array_search($requestedPainting, $allPaintings);
+                    if ($indexOf) {
+                        array_splice($allPaintings, $indexOf, 1);
+                        array_unshift($allPaintings, $requestedPainting);
+                    }
+                }
+                foreach ($allPaintings as $painting) {
+                ?>
+                    <div class="paiting-container">
+                        <div class="photo-container">
+                            <img src="/content/paintings/<?= $painting ?>/<?= $painting ?>-portfolio.jpg" class="photo" />
+                        </div>
+                        <div class="description-container">
+                            <?php include "/content/paintings/" . $painting . "/" . $painting . "-description.html"; ?>
+                        </div>
                     </div>
-                    <div class="description-container">
-                        <h1 class="massive">Inner self</h1>
-                        <h3>acrylic on canvas, 100x100cm (39"x39")</h3>
-                        <p>
-                            Self just like awareness is one of the terms we just accepted but never been able to determin and describe
-                            properly. Who we are inside, who/what dives us, who exactly has desires is a matter of study. What part of
-                            the brain is responsible for self?</p>
-                        <p>Available</p>
-                    </div>
-                </div>
-                
+                <?php
+                }
+                ?>
             </div>
             </div>
 
