@@ -8,6 +8,23 @@ body {
     padding: 0.5rem 1rem 0.5rem 0rem;
 }
 
+/**
+ * Slides
+ **/
+li.glide__slide div.bg div {
+    text-align:center; 
+    line-height: 100vh;
+}
+
+li.glide__slide div.bg div img {
+    height: 100vh; 
+    margin:-100%; 
+    vertical-align:middle;
+}
+
+/**
+ * Grids
+ **/
 .grid .grid-item:after {
     content: "";
     display: block;
