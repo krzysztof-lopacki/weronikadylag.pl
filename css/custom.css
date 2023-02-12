@@ -17,20 +17,93 @@ li.glide__slide div.bg div {
 }
 
 li.glide__slide div.bg div img {
-    width: 100%; 
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 @media (max-width: 840px) {
-    .dekstop {
+    .dekstop, div.desktop {
         display: none;
     }
 }
 
 @media (min-width: 840px) {
-    .mobile {
+    .mobile, div.mobile {
         display: none;
+    }
+}
+
+/**
+ * Portfolio
+ **/
+.portfolio:first-child {
+    padding-top: 1.5rem;
+}
+
+.portfolio:last-child {
+    padding-bottom: 6rem;
+}
+
+.paiting-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    max-width: 50%;
+    display: block;
+    position: relative;
+}
+.photo-container .photo {
+    width: 100%;
+}
+
+.description-container {
+    max-width: 50%;
+    display: block;
+    position: relative;
+    padding-left: 2.5%;        
+    padding-right: 2.5%;
+}
+
+.description-container > h1 {
+    padding-top: 15rem;
+    padding-bottom: 0rem;
+}
+
+@media (max-width: 840px) {
+    .portfolio:first-child {
+        padding-top: 1.5rem;
+    }
+
+    .portfolio:last-child {
+        padding-bottom: 0rem;
+    }    
+
+    .photo-container {
+        max-width: 100%;
+    }
+    .description-container {
+        max-width: 100%;
+        padding-left: 5%;        
+        padding-right: 5%;
+    }
+
+    .description-container:after {
+        content: ". . .";
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .description-container > h1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -65,7 +138,7 @@ li.glide__slide div.bg div img {
 
 @media screen and (max-width: 1024px) {
     .navbar {
-      padding: 1rem 2rem 1rem 1.5rem;
+        padding: 1rem 2rem 1rem 1.5rem;
     }
 }
 

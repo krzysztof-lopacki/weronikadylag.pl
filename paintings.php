@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$title = "Corbet | Weronika Dyląg";
+$title = "Weronika Dyląg | Portfolio";
 include "blocks/head.php";
 ?>
 
@@ -11,55 +11,40 @@ include "blocks/head.php";
 
     <main>
         <section>
-            <div class="container-fluid py-6">
-                <h1 class="in-top">Blog &mdash;<br>Stream of thoughts.</h1>
-            </div>
-            <div class="container-fluid">
-                <div class="grid">
-                    <div class="grid-sizer col-1"></div>
-                    <a class="grid-item col-4" href="purpose-of-art.html">
-                        <img alt="Weronika Dyląg" src="images/sicily_mosiac.jpg">
-                        <div class="caption p-3">
-                            <div class="title">The purpose of art</div>
-                        </div>
-                    </a>
-                    <a class="grid-item col-4" href="red.html">
-                        <img alt="Weronika Dyląg" src="images/red.jpg">
-                        <div class="caption p-3">
-                            <div class="title">Red</div>
-                        </div>
-                    </a>
-                    <a class="grid-item col-4" href="paint-folding.html">
-                        <img alt="Paint folding" src="images/off-canvas.png">
-                        <div class="caption p-3">
-                            <div class="title">Paint folding</div>
-                        </div>
-                    </a><a class="grid-item col-4" href="inspiration.html">
-                        <img alt="Weronika Dyląg" src="images/creature.jpg">
-                        <div class="caption p-3">
-                            <div class="title">Inspiration</div>
-                        </div>
-                    </a><a class="grid-item col-4" href="colour-palette.html">
-                        <img alt="Weronika Dyląg" src="images/colours.jpg">
-                        <div class="caption p-3">
-                            <div class="title">Colour palette</div>
-                        </div>
-                    </a><a class="grid-item col-4" href="vernissage.html">
-                        <img alt="Weronika Dyląg" src="images/vernissage.jpg">
-                        <div class="caption p-3">
-                            <div class="title">Colour palette</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="container my-5 py-6">
-                <div class="row justify-content-md-center text-center">
-                    <div class="col-sm-5">
-                        <h4>Just random thoughts</h4>
-                        <p>Just some of my random thoughts about the art in general and the art I am making.</p>
+            <div class="portfolio">
+                
+                <div class="paiting-container">
+                    <div class="photo-container">
+                        <img src="paintings/flow/flow-portfolio.jpg" class="photo" />
+                    </div>
+                    <div class="description-container">
+                        <h1 class="massive">Flow</h1>
+                        <h2>acrylic on raw linen, 100x70cm (27"x27")</h2>
+                        <p>In positive psychology, a flow state, also known colloquially as being in the zone, is the mental state
+                            in which a person performing some activity is fully immersed in a feeling of energized focus, full
+                            involvement, and enjoyment in the process of the activity.</p>
+                        <p>Available at <a href="https://www.artsy.net/artwork/weronika-dylag-flow">Artsy</a></p>
                     </div>
                 </div>
+
+                <div class="paiting-container">
+                    <div class="photo-container">
+                        <img src="paintings/inner-self/inner-self-portfolio.jpg" class="photo" />
+                    </div>
+                    <div class="description-container">
+                        <h1 class="massive">Inner self</h1>
+                        <h3>acrylic on canvas, 100x100cm (39"x39")</h3>
+                        <p>
+                            Self just like awareness is one of the terms we just accepted but never been able to determin and describe
+                            properly. Who we are inside, who/what dives us, who exactly has desires is a matter of study. What part of
+                            the brain is responsible for self?</p>
+                        <p>Available</p>
+                    </div>
+                </div>
+                
             </div>
+            </div>
+
         </section>
     </main>
 
