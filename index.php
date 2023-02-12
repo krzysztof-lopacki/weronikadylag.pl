@@ -15,29 +15,29 @@ include "blocks/head.php";
         <ul class="glide__slides">
           <li class="glide__slide invert">
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
-              
-              <div class="bg o-8">
-                <div style="background: #ffffff">
-                  <img src="paintings/flow/flow.jpg" />
+              <div class="bg">
+                <div>
+                  <img src="paintings/flow/flow-slide-vertical.jpg" class="mobile" />
+                  <img src="paintings/flow/flow-slide-horizontal.jpg" class="desktop" />
                 </div>
               </div>
-              
-              <!--<div class="bg o-8" style="background-image:url(paintings/flow/flow.jpg)">
-                <div class="bg o-4" style="background-image:url(images/happy_place.png); display: none;"></div>
-              </div>-->
-              <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="flow.html">
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="flow.html">
                   <h6>100x70cm / 39x27,5 inches</h6>
                   <h1 class="massive"><span class="d-block">Flow</span></h1>
-                </a></div>
+                </a>
+              </div>
             </div>
           </li>
           <li class="glide__slide invert">
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
               <div class="bg o-8" style="background-image:url(images/slide2.png)"></div>
-              <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="pride.html">
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="pride.html">
                   <h6>110x100cm/43,3x43x3 inches</h6>
                   <h1 class="massive pt-2"><span class="d-block">Pride</span></h1>
-                </a></div>
+                </a>
+              </div>
             </div>
           </li>
           <li class="glide__slide invert">
@@ -54,10 +54,12 @@ include "blocks/head.php";
           <li class="glide__slide invert">
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
               <div class="bg o-8" style="background-image:url(images/slide1.png)"></div>
-              <div class="container-fluid py-6"><a class="tilt no-link mx-auto" href="cognitive_flexibility.html">
+              <div class="container-fluid py-6">
+                <a class="tilt no-link mx-auto" href="cognitive_flexibility.html">
                   <h6>100x70cm / 39x27,5 inches</h6>
                   <h1 class="massive"> <span class="d-block">Cognitive<br>flexibilty</span></h1>
-                </a></div>
+                </a>
+              </div>
             </div>
           </li>
         </ul>
