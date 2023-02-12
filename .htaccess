@@ -2,6 +2,7 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteRule ^paintings(.*)$ paintings.php?query=$1
 RewriteRule ^jonitaco/jonitaco(.*)$ http://jonitaco.weronikadylag.pl/$1 [L,R=301]
 
 </IfModule>

@@ -15,7 +15,7 @@ include "blocks/head.php";
                 
                 <div class="paiting-container">
                     <div class="photo-container">
-                        <img src="paintings/flow/flow-portfolio.jpg" class="photo" />
+                        <img src="/content/paintings/flow/flow-portfolio.jpg" class="photo" />
                     </div>
                     <div class="description-container">
                         <h1 class="massive">Flow</h1>
@@ -29,7 +29,7 @@ include "blocks/head.php";
 
                 <div class="paiting-container">
                     <div class="photo-container">
-                        <img src="paintings/inner-self/inner-self-portfolio.jpg" class="photo" />
+                        <img src="/content/paintings/inner-self/inner-self-portfolio.jpg" class="photo" />
                     </div>
                     <div class="description-container">
                         <h1 class="massive">Inner self</h1>
