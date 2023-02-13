@@ -37,6 +37,12 @@ include "/blocks/head.php";
             </div>
           </div>
           <div class="grid-item col-3" href="#">
+            <img alt="Greece" src="/content/photography/images/2a.jpg">
+            <div class="caption p-3">
+              <div class="title">Jordan</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
             <img alt="Greece" src="/content/photography/images/4a.jpg">
             <div class="caption p-3">
               <div class="title">Greece</div>
@@ -70,6 +76,48 @@ include "/blocks/head.php";
             <img alt="Madera" src="/content/photography/images/12a.jpg">
             <div class="caption p-3">
               <div class="title">Madeira</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/7a.jpg">
+            <div class="caption p-3">
+              <div class="title">Madeira</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/9a.jpg">
+            <div class="caption p-3">
+              <div class="title">Madeira</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/13a.jpg">
+            <div class="caption p-3">
+              <div class="title">Madeira</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/14a.jpg">
+            <div class="caption p-3">
+              <div class="title">Madeira</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/15a.jpg">
+            <div class="caption p-3">
+              <div class="title">Timna</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/16a.jpg">
+            <div class="caption p-3">
+              <div class="title">Timna</div>
+            </div>
+          </div>
+          <div class="grid-item col-3" href="#">
+            <img alt="Madera" src="/content/photography/images/17a.jpg">
+            <div class="caption p-3">
+              <div class="title">Timna</div>
             </div>
           </div>
         </div>
