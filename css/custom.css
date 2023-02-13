@@ -12,12 +12,18 @@ body {
  * Typo
  **/
 .semi-massive {
-  font-size: 5rem;
-  font-weight: 900;
-  letter-spacing: -0.07em;
-  line-height: 0.77;
-  text-indent: -0.039em;
-  margin-bottom: 0.25em;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: -0.07em;
+    line-height: 0.77;
+    text-indent: -0.039em;
+    margin-bottom: 0.25em;
+}
+
+@media (max-width: 840px) {
+    .semi-massive {
+        font-size: 3.5rem;
+    }
 }
 
 /**
@@ -35,13 +41,17 @@ li.glide__slide div.bg div img {
 }
 
 @media (max-width: 840px) {
-    .dekstop, div.desktop {
+
+    .dekstop,
+    div.desktop {
         display: none;
     }
 }
 
 @media (min-width: 840px) {
-    .mobile, div.mobile {
+
+    .mobile,
+    div.mobile {
         display: none;
     }
 }
@@ -50,38 +60,39 @@ li.glide__slide div.bg div img {
  * Artist
  **/
 .artist .artist-photo {
-    width: 360px;    
- }
+    width: 360px;
+}
 
- @media (max-width: 840px) {
-    .artist-photo {
-        width: 100%;    
-     }
+@media (max-width: 840px) {
+    .artist .artist-photo {
+        width: 100%;
+    }
 }
 
 /**
  * Contact
  **/
- .contact .address {
+.contact .address {
     text-align: center;
- }
+}
 
- .contact .address table {
+.contact .address table {
     margin-left: auto;
     margin-right: auto;
- }
+}
 
- .contact td:first-child {
+.contact td:first-child {
     text-align: right;
- }
- .contact td:last-child {
-    text-align: left;
- }
+}
 
- .contact td {
+.contact td:last-child {
+    text-align: left;
+}
+
+.contact td {
     padding-left: 8px;
     padding-right: 8px;
- }
+}
 
 /**
  * Painting
@@ -105,6 +116,7 @@ li.glide__slide div.bg div img {
     display: block;
     position: relative;
 }
+
 .photo-container .photo {
     width: 100%;
 }
@@ -113,11 +125,11 @@ li.glide__slide div.bg div img {
     max-width: 50%;
     display: block;
     position: relative;
-    padding-left: 2.5%;        
+    padding-left: 2.5%;
     padding-right: 2.5%;
 }
 
-.description-container > h1 {
+.description-container>h1 {
     padding-top: 15rem;
     padding-bottom: 0rem;
 }
@@ -129,14 +141,15 @@ li.glide__slide div.bg div img {
 
     .portfolio:last-child {
         padding-bottom: 0rem;
-    }    
+    }
 
     .photo-container {
         max-width: 100%;
     }
+
     .description-container {
         max-width: 100%;
-        padding-left: 5%;        
+        padding-left: 5%;
         padding-right: 5%;
     }
 
@@ -149,7 +162,7 @@ li.glide__slide div.bg div img {
         padding-bottom: 3rem;
     }
 
-    .description-container > h1 {
+    .description-container>h1 {
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-bottom: 0.5rem;

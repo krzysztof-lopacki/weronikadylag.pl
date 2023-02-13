@@ -28,7 +28,7 @@ include "/blocks/head.php";
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 py-5">
+          <div class="col-sm-6 py-4">
             <p>
               Weronika Aaron Dyląg is a Warsaw-based graphic designer who took up painting five years ago. Her graphic
               design experience, very much visible in her early work, strongly influences her art. Her interest in
@@ -41,7 +41,7 @@ include "/blocks/head.php";
               on blowing the paint with air instead of using brushes.
             </p>
           </div>
-          <div class="col-sm-6 py-5 artist-photo-container" style="text-align:center;">
+          <div class="col-sm-6 py-4 artist-photo-container" style="text-align:center;">
             <img class="artist-photo" src="/content/artist/images/weronika-dylag.jpg" />
           </div>
         </div>
@@ -52,7 +52,7 @@ include "/blocks/head.php";
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 py-5">
+          <div class="col-sm-6 py-4">
             <p>
               Six years ago, I returned to painting working with acrylics. In my recent art, I focus on psychology and
               positive emotions by dissecting colour, form and composition. My inspiration comes from the works of Yago
@@ -67,7 +67,7 @@ include "/blocks/head.php";
               change of air direction.
             </p>
           </div>
-          <div class="col-sm-6 py-5">
+          <div class="col-sm-6 py-4">
             <p>
               I work on white, blue-ish, black, red and raw linen backgrounds – usually one colour to make the
               interaction of the colours stand out.
@@ -86,7 +86,7 @@ include "/blocks/head.php";
             <h1 class="semi-massive"><br />Exhibitions</h1>
           </div>
         </div>
-        <div class="row py-4">
+        <div class="row mt-2">
           <div class="col-sm-4 py-3">
             <h3 class="mb-4">Group exhibition "Ego"</h3>
             <p>September 2021<br>Divulgarti Group<br>Palazzo Ducale, Genova, Italy</p>
