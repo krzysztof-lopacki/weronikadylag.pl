@@ -9,6 +9,18 @@ body {
 }
 
 /**
+ * Typo
+ **/
+.semi-massive {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 0.77;
+  text-indent: -0.039em;
+  margin-bottom: 0.25em;
+}
+
+/**
  * Slides
  **/
 li.glide__slide div.bg div {
@@ -35,7 +47,24 @@ li.glide__slide div.bg div img {
 }
 
 /**
- * Portfolio
+ * Artist
+ **/
+ .artist p {
+    
+ }
+
+ .artist-photo {
+    width: 360px;    
+ }
+
+ @media (max-width: 840px) {
+    .artist-photo {
+        width: 100%;    
+     }
+}
+
+/**
+ * Painting
  **/
 .portfolio:first-child {
     padding-top: 1.5rem;
