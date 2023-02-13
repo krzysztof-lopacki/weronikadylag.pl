@@ -2,6 +2,7 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteRule ^photography(/*)(.*)$ /content/photography/photography.php
 RewriteRule ^paintings(/*)(.*)$ /content/paintings/paintings.php?query=$2
 RewriteRule ^jonitaco/jonitaco(.*)$ http://jonitaco.weronikadylag.pl/$1 [L,R=301]
 
