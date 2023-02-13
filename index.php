@@ -7,7 +7,7 @@ include "blocks/head.php";
 ?>
 
 <body>
-  <?php include "blocks/header.html"; ?>
+  <?php include "blocks/header.php"; ?>
 
   <main>
     <div class="glide slider">
