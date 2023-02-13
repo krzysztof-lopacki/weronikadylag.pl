@@ -14,7 +14,23 @@ include "/blocks/head.php";
             <div class="portfolio">
                 <?php
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
-                $allPaintings = ["to-explore", "to-stand-out", "cognitive-flexibility", "breaking-cycle", "awe", "attentive", "seeking", "self-esteem", "self-awareness", "flow", "inner-self"];
+                $allPaintings = [
+                    "shaping-autonomy",
+                    "pride",
+                    "hyperfocus",
+                    "serenity",
+                    "to-explore", 
+                    "to-stand-out", 
+                    "cognitive-flexibility", 
+                    "breaking-cycle", 
+                    "awe", 
+                    "attentive", 
+                    "seeking", 
+                    "self-esteem", 
+                    "self-awareness", 
+                    "flow", 
+                    "inner-self"
+                ];
 
                 $requestedPainting = $_GET["query"];
 
