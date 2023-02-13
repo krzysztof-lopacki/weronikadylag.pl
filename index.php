@@ -6,7 +6,7 @@ $title = "Corbet | Weronika Dyląg";
 include "blocks/head.php";
 ?>
 
-<body>
+<body class="home">
   <?php include "blocks/header.php"; ?>
 
   <main>

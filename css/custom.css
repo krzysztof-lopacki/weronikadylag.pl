@@ -9,6 +9,24 @@ body {
 }
 
 /**
+ * Copyrights
+ **/
+.home div.copyrights {
+    display: none;
+}
+div.copyrights {
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 840px) {
+    div div.copyrights {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+/**
  * Typo
  **/
 .semi-massive {
