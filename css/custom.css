@@ -49,11 +49,7 @@ li.glide__slide div.bg div img {
 /**
  * Artist
  **/
- .artist p {
-    
- }
-
- .artist-photo {
+.artist .artist-photo {
     width: 360px;    
  }
 
@@ -62,6 +58,30 @@ li.glide__slide div.bg div img {
         width: 100%;    
      }
 }
+
+/**
+ * Contact
+ **/
+ .contact .address {
+    text-align: center;
+ }
+
+ .contact .address table {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .contact td:first-child {
+    text-align: right;
+ }
+ .contact td:last-child {
+    text-align: left;
+ }
+
+ .contact td {
+    padding-left: 8px;
+    padding-right: 8px;
+ }
 
 /**
  * Painting

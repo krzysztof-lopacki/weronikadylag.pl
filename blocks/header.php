@@ -19,11 +19,11 @@
         <li class="nav-item">
             <a class="nav-link" href="/photography">photography</a>
         </li>           
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" href="/blog-grid.html">blog</a>
-        </li>
+        </li> -->
         <li class="nav-item">
-            <a class="nav-link" href="/contact.html">contact</a>
+            <a class="nav-link" href="/contact">contact</a>
         </li>
     </ul>
 </header>

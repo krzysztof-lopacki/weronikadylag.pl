@@ -2,6 +2,7 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteRule ^contact(/*)(.*)$ /content/contact/contact.php
 RewriteRule ^artist(/*)(.*)$ /content/artist/artist.php
 RewriteRule ^photography(/*)(.*)$ /content/photography/photography.php
 RewriteRule ^paintings(/*)(.*)$ /content/paintings/paintings.php?query=$2
