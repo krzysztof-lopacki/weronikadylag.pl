@@ -15,21 +15,21 @@ include "/blocks/head.php";
                 <?php
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
                 $allPaintings = [
-                    "shaping-autonomy",
-                    "pride",
+                    "to-explore", 
+                    "inner-self",
+                    "cognitive-flexibility", 
                     "hyperfocus",
                     "serenity",
-                    "to-explore", 
+                    "self-awareness",
+                    "seeking", 
+                    "pride",
+                    "shaping-autonomy",
                     "to-stand-out", 
-                    "cognitive-flexibility", 
+                    "flow", 
                     "breaking-cycle", 
                     "awe", 
                     "attentive", 
-                    "seeking", 
-                    "self-esteem", 
-                    "self-awareness", 
-                    "flow", 
-                    "inner-self"
+                    "self-esteem"                    
                 ];
 
                 $requestedPainting = $_GET["query"];
