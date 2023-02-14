@@ -16,38 +16,37 @@ include "/blocks/head.php";
         <h1 class="semi-massive"><span class="d-block in-left">Landscape photography</span><span class="d-block in-top">Different parts of the world</span></h1>
       </div>
 
-      <div class="container-fluid">
-        <div class="grid gallery">
-          <div class="grid-sizer col-1"></div>
+      <div class="photos-container gallery">
 
-          <?php
-          // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PHOTOS
-          $photos = [
-            ["jordan-1", "Jordan"],
-            ["warsaw-1", "Warsaw"],
-            ["jordan-2", "Jordan"],
-            ["greece-1", "Greece"],
-            ["madeira-1", "Madeira"],
-            ["madeira-2", "Madeira"],
-            ["madeira-3", "Madeira"],
-            ["madeira-4", "Madeira"],
-            ["madeira-5", "Madeira"]
-          ];
+        <?php
+        // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PHOTOS
+        $photos = [
+          ["jordan-1", "Jordan"],
+          ["warsaw-1", "Warsaw"],
+          ["jordan-2", "Jordan"],
+          ["greece-1", "Greece"],
+          ["madeira-1", "Madeira"],
+          ["madeira-2", "Madeira"],
+          ["madeira-3", "Madeira"],
+          ["madeira-4", "Madeira"],
+          ["madeira-5", "Madeira"]
+        ];
 
-          foreach ($photos as $photo) {
-          ?>
-
-            <a class="lightbox grid-item col-3" href="/content/photography/images/<?= $photo[0] ?>.jpg"><img alt="<?= $photo[1] ?>" src="/content/photography/images/<?= $photo[0] ?>_thumbnail.jpg">
+        foreach ($photos as $photo) {
+        ?>
+          <div class="photo">
+            <a class="lightbox" href="/content/photography/images/<?= $photo[0] ?>.jpg"><img alt="<?= $photo[1] ?>" src="/content/photography/images/<?= $photo[0] ?>_thumbnail.jpg">
               <div class="caption p-3">
                 <div class="title"><?= $photo[1] ?></div>
               </div>
             </a>
-          
-          <?php
-          }
-          ?>
+          </div>
 
-        </div>
+        <?php
+        }
+        ?>
+
+
       </div>
 
       <div class="container my-5 py-6">

@@ -14,10 +14,12 @@ body {
 .home div.copyrights {
     display: none;
 }
+
 div.copyrights {
     width: 100%;
     text-align: center;
 }
+
 @media (max-width: 840px) {
     div div.copyrights {
         padding-top: 2rem;
@@ -111,6 +113,72 @@ li.glide__slide div.bg div img {
     padding-left: 8px;
     padding-right: 8px;
 }
+
+/**
+ * Photos
+ **/
+.photos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photo {
+    text-decoration: none;
+    position: relative;
+    width: 25%;
+    background-color: #141414;
+}
+
+@media (max-width: 1280px) {
+    .photo {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .photo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 840px) {
+    .photo {
+        width: 100%;
+    }
+}
+
+.photo img {
+    transition: opacity 0.3s;
+    object-fit: cover;
+    width: 100%;
+}
+
+.photos-container .photo .caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+    backdrop-filter: saturate(180%) blur(15px);
+    color: white;
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+
+.photos-container .photo:hover img {
+    opacity: 0.5;
+}
+
+.photos-container .photo:hover .caption {
+    opacity: 1;
+}
+
 
 /**
  * Painting
