@@ -13,11 +13,11 @@
   </script>
 
   <script>
-    window.onunload = function() {};
-    window.onload = window.onpageshow= function() {
-      
-    };
-
+    window.addEventListener('pageshow', (event) => {
+      if (event.persisted) {
+        location.reload();
+      }
+    });
   </script>
 
 
