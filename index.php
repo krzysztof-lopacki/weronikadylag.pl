@@ -23,7 +23,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paintings/self-awarness">
+                <a class="tilt no-link mx-auto" href="/paintings/self-awareness">
                   <h6>100x100cm / 39x39 inches</h6>
                   <h1 class="massive"><span class="d-block">Self Awarness</span></h1>
                 </a>
@@ -40,7 +40,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paintings/reflection">
+                <a class="tilt no-link mx-auto" href="/paintings/attentive">
                   <h6>100x120cm / 39x47 inches</h6>
                   <h1 class="massive"><span class="d-block">Attentive</span></h1>
                 </a>

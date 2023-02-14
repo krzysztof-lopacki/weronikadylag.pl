@@ -15,10 +15,13 @@ include "/blocks/head.php";
                 <?php
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
                 $allPaintings = [
-                    "to-explore", 
+                    "to-explore",
                     "inner-self",
+                    "reflection",
                     "cognitive-flexibility", 
+                    "reef",
                     "hyperfocus",
+                    "june",
                     "serenity",
                     "self-awareness",
                     "seeking", 
@@ -33,6 +36,7 @@ include "/blocks/head.php";
                 ];
 
                 $requestedPainting = $_GET["query"];
+                //print ("Painting:".$requestedPainting."|");
 
                 if (!empty($requestedPainting)) {
                     $indexOf = array_search($requestedPainting, $allPaintings);
