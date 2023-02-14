@@ -130,24 +130,6 @@ li.glide__slide div.bg div img {
     background-color: #141414;
 }
 
-@media (max-width: 1280px) {
-    .photo {
-        width: 33.3%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .photo {
-        width: 50%;
-    }
-}
-
-@media (max-width: 840px) {
-    .photo {
-        width: 100%;
-    }
-}
-
 .photo img {
     transition: opacity 0.3s;
     object-fit: cover;
@@ -179,6 +161,30 @@ li.glide__slide div.bg div img {
     opacity: 1;
 }
 
+@media (max-width: 1280px) {
+    .photo {
+        width: 33.3%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .photo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 840px) {
+    .photo {
+        width: 100%;
+    }
+
+    .photos-container .photo .caption {
+        opacity: 0.75;
+        top: auto;
+        
+        backdrop-filter: blur(15px);
+    }
+}
 
 /**
  * Painting
