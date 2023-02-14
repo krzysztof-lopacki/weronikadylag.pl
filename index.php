@@ -23,7 +23,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paitings/self-awarness">
+                <a class="tilt no-link mx-auto" href="/paintings/self-awarness">
                   <h6>100x100cm / 39x39 inches</h6>
                   <h1 class="massive"><span class="d-block">Self Awarness</span></h1>
                 </a>
@@ -40,7 +40,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paitings/reflection">
+                <a class="tilt no-link mx-auto" href="/paintings/reflection">
                   <h6>100x120cm / 39x47 inches</h6>
                   <h1 class="massive"><span class="d-block">Attentive</span></h1>
                 </a>
@@ -57,7 +57,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paitings/reef">
+                <a class="tilt no-link mx-auto" href="/paintings/reef">
                   <h6>100x100cm / 39x39 inches</h6>
                   <h1 class="massive"><span class="d-block">Reef</span></h1>
                 </a>
@@ -74,7 +74,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paitings/june">
+                <a class="tilt no-link mx-auto" href="/paintings/june">
                   <h6>100x100cm / 39x39 inches</h6>
                   <h1 class="massive"><span class="d-block">June</span></h1>
                 </a>
@@ -91,7 +91,7 @@ include "blocks/head.php";
                 </div>
               </div>
               <div class="container-fluid py-6">
-                <a class="tilt no-link mx-auto" href="/paitings/flow">
+                <a class="tilt no-link mx-auto" href="/paintings/flow">
                   <h6>100x70cm / 39x27,5 inches</h6>
                   <h1 class="massive"><span class="d-block">Flow</span></h1>
                 </a>
