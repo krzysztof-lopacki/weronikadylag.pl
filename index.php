@@ -35,14 +35,14 @@ include "blocks/head.php";
             <div class="jumbotron jumbotron-fluid vh-100 d-flex align-items-center">
               <div class="bg">
                 <div>
-                  <img src="/content/paintings/reflection/reflection-slide-vertical.jpg" class="mobile" />
-                  <img src="/content/paintings/reflection/reflection-slide-horizontal.jpg" class="desktop" />
+                  <img src="/content/paintings/attentive/attentive-slide-vertical.jpg" class="mobile" />
+                  <img src="/content/paintings/attentive/attentive-slide-horizontal.jpg" class="desktop" />
                 </div>
               </div>
               <div class="container-fluid py-6">
                 <a class="tilt no-link mx-auto" href="/paitings/reflection">
                   <h6>100x120cm / 39x47 inches</h6>
-                  <h1 class="massive"><span class="d-block">Reflection</span></h1>
+                  <h1 class="massive"><span class="d-block">Attentive</span></h1>
                 </a>
               </div>
             </div>
