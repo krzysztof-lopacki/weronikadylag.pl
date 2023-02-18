@@ -106,7 +106,8 @@ include "blocks/head.php";
         <div class="glide__bullet" data-glide-dir="=1">2</div>
         <div class="glide__bullet" data-glide-dir="=2">3</div>
         <div class="glide__bullet" data-glide-dir="=3">4</div>
-        <div class="glide__bullet total">4</div>
+        <div class="glide__bullet" data-glide-dir="=4">5</div>
+        <div class="glide__bullet total">5</div>
       </div>
     </div>
   </main>
