@@ -80,6 +80,10 @@ li.glide__slide div.bg div img {
     bottom: 2em;
 }
 
+.glide__slide {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 1024px) {
     .glide .glide__bullets {
         left: 1.5em;
@@ -97,7 +101,6 @@ li.glide__slide div.bg div img {
 
 @media (max-width: 840px) {
 
-
     .dekstop,
     div.desktop {
         display: none;
@@ -110,6 +113,142 @@ li.glide__slide div.bg div img {
     div.mobile {
         display: none;
     }
+}
+
+.glide .glide__slide .bg {
+    transition: opacity 1s 0.5s;
+}
+
+.glide .glide__slide:not(.glide__slide--active) .bg {
+    transition: opacity 0s 0s;
+    opacity: 0;
+}
+
+.glide .glide__slide h1,
+.glide .glide__slide h2,
+.glide .glide__slide h3,
+.glide .glide__slide h4,
+.glide .glide__slide h5,
+.glide .glide__slide h6,
+.glide .glide__slide p,
+.glide .glide__slide img {
+    opacity: 0 !important;
+    transform: translateX(-20px) !important;
+}
+
+.glide .glide__slide--active h1,
+.glide .glide__slide--active h2,
+.glide .glide__slide--active h3,
+.glide .glide__slide--active h4,
+.glide .glide__slide--active h5,
+.glide .glide__slide--active h6,
+.glide .glide__slide--active p,
+.glide .glide__slide--active img {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.glide .glide__slide h1:nth-child(1),
+.glide .glide__slide h2:nth-child(1),
+.glide .glide__slide h3:nth-child(1),
+.glide .glide__slide h4:nth-child(1),
+.glide .glide__slide h5:nth-child(1),
+.glide .glide__slide h6:nth-child(1),
+.glide .glide__slide p:nth-child(1),
+.glide .glide__slide img:nth-child(1) {
+    transition: all 0.6s 0.25s;
+}
+
+.glide .glide__slide h1:nth-child(2),
+.glide .glide__slide h2:nth-child(2),
+.glide .glide__slide h3:nth-child(2),
+.glide .glide__slide h4:nth-child(2),
+.glide .glide__slide h5:nth-child(2),
+.glide .glide__slide h6:nth-child(2),
+.glide .glide__slide p:nth-child(2),
+.glide .glide__slide img:nth-child(2) {
+    transition: all 1s 0.9s;
+}
+
+.glide .glide__slide h1:nth-child(3),
+.glide .glide__slide h2:nth-child(3),
+.glide .glide__slide h3:nth-child(3),
+.glide .glide__slide h4:nth-child(3),
+.glide .glide__slide h5:nth-child(3),
+.glide .glide__slide h6:nth-child(3),
+.glide .glide__slide p:nth-child(3),
+.glide .glide__slide img:nth-child(3) {
+    transition: all 1s 1.35s;
+}
+
+.glide .glide__slide h1:nth-child(4),
+.glide .glide__slide h2:nth-child(4),
+.glide .glide__slide h3:nth-child(4),
+.glide .glide__slide h4:nth-child(4),
+.glide .glide__slide h5:nth-child(4),
+.glide .glide__slide h6:nth-child(4),
+.glide .glide__slide p:nth-child(4),
+.glide .glide__slide img:nth-child(4) {
+    transition: all 1s 1.8s;
+}
+
+.glide .glide__slide h1:nth-child(5),
+.glide .glide__slide h2:nth-child(5),
+.glide .glide__slide h3:nth-child(5),
+.glide .glide__slide h4:nth-child(5),
+.glide .glide__slide h5:nth-child(5),
+.glide .glide__slide h6:nth-child(5),
+.glide .glide__slide p:nth-child(5),
+.glide .glide__slide img:nth-child(5) {
+    transition: all 1s 2.25s;
+}
+
+.glide .glide__slide h1:nth-child(6),
+.glide .glide__slide h2:nth-child(6),
+.glide .glide__slide h3:nth-child(6),
+.glide .glide__slide h4:nth-child(6),
+.glide .glide__slide h5:nth-child(6),
+.glide .glide__slide h6:nth-child(6),
+.glide .glide__slide p:nth-child(6),
+.glide .glide__slide img:nth-child(6) {
+    transition: all 1s 2.7s;
+}
+
+.glide .glide__slide h1:nth-child(7),
+.glide .glide__slide h2:nth-child(7),
+.glide .glide__slide h3:nth-child(7),
+.glide .glide__slide h4:nth-child(7),
+.glide .glide__slide h5:nth-child(7),
+.glide .glide__slide h6:nth-child(7),
+.glide .glide__slide p:nth-child(7),
+.glide .glide__slide img:nth-child(7) {
+    transition: all 1s 3.15s;
+}
+
+.glide .glide__slide h1:nth-child(8),
+.glide .glide__slide h2:nth-child(8),
+.glide .glide__slide h3:nth-child(8),
+.glide .glide__slide h4:nth-child(8),
+.glide .glide__slide h5:nth-child(8),
+.glide .glide__slide h6:nth-child(8),
+.glide .glide__slide p:nth-child(8),
+.glide .glide__slide img:nth-child(8) {
+    transition: all 1s 3.6s;
+}
+
+.glide .glide__slide h1:nth-child(9),
+.glide .glide__slide h2:nth-child(9),
+.glide .glide__slide h3:nth-child(9),
+.glide .glide__slide h4:nth-child(9),
+.glide .glide__slide h5:nth-child(9),
+.glide .glide__slide h6:nth-child(9),
+.glide .glide__slide p:nth-child(9),
+.glide .glide__slide img:nth-child(9) {
+    transition: all 1s 4.05s;
+}
+
+.glide .glide__slide--active .bg {
+    animation: scale 20s 1s infinite both;
 }
 
 /**
@@ -217,7 +356,7 @@ li.glide__slide div.bg div img {
     .photos-container .photo .caption {
         opacity: 0.75;
         top: auto;
-        
+
         backdrop-filter: blur(15px);
     }
 }

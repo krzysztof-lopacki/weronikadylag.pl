@@ -10,7 +10,7 @@ include "blocks/head.php";
   <?php include "blocks/header.php"; ?>
 
   <main>
-    <div class="glide slider">
+    <div class="glide carousel">
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
 

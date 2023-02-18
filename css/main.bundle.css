@@ -11982,7 +11982,7 @@ body.dark-slide header .navbar .navbar-brand img.inverted {
   transform: rotate(45deg);
 }
 
-.glide:not(.carousel) .glide__slide .bg {
+/* .glide:not(.carousel) .glide__slide .bg {
   transition: opacity 1s 1s;
 }
 .glide:not(.carousel) .glide__slide:not(.glide__slide--animate) .bg {
@@ -12057,7 +12057,7 @@ body.dark-slide header .navbar .navbar-brand img.inverted {
 .glide:not(.carousel) .glide__slide--animate h1, .glide:not(.carousel) .glide__slide--animate h2, .glide:not(.carousel) .glide__slide--animate h3, .glide:not(.carousel) .glide__slide--animate h4, .glide:not(.carousel) .glide__slide--animate h5, .glide:not(.carousel) .glide__slide--animate h6, .glide:not(.carousel) .glide__slide--animate p, .glide:not(.carousel) .glide__slide--animate img {
   opacity: 1 !important;
   transform: translateY(0) !important;
-}
+} */
 
 @keyframes scale {
   0% {
