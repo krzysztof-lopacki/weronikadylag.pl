@@ -22,6 +22,64 @@ body {
     }
 }
 
+
+/**
+ * Footer
+ **/
+a.instagram-link {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 2rem;
+    left: auto;
+    bottom: 2rem;
+    text-decoration: none;
+}
+
+a.instagram-link p {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+    transform: translateX(10px);
+}
+
+a.instagram-link:hover p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+
+@media screen and (max-width: 1024px) {
+    a.instagram-link {
+        right: 1.5em;
+        bottom: 1.5em;
+    }
+
+    footer.fixed-bottom,
+    footer.fixed-bottom.alt-footer {
+        position: fixed;
+    }
+
+    .dark-slide footer.fixed-bottom *,
+    .dark-slide footer.fixed-bottom.alt-footer * {
+        color: white !important;
+    }
+
+    footer.fixed-bottom .text-right,
+    footer.fixed-bottom.alt-footer .text-right {
+        text-align: auto !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    a.instagram-link {
+        right: 1em;
+        bottom: 1em;
+    }
+}
+
 /**
  * Copyrights
  **/
@@ -78,6 +136,10 @@ li.glide__slide div.bg div img {
     position: fixed;
     left: 2em;
     bottom: 2em;
+}
+
+.glide__bullets {
+    padding-bottom: 16px;
 }
 
 .glide__slide {
