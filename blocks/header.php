@@ -18,10 +18,10 @@
         </li>        
         <li class="nav-item">
             <a class="nav-link" href="/photography">photography</a>
-        </li>           
-        <!-- <li class="nav-item">
-            <a class="nav-link" href="/blog-grid.html">blog</a>
-        </li> -->
+        </li>      
+        <li class="nav-item">
+            <a class="nav-link" href="/blog">blog</a>
+        </li>       
         <li class="nav-item">
             <a class="nav-link" href="/contact">contact</a>
         </li>

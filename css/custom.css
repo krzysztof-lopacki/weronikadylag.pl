@@ -360,14 +360,14 @@ li.glide__slide div.bg div img {
     flex-wrap: wrap;
 }
 
-.photo {
+.photos-container .photo {
     text-decoration: none;
     position: relative;
     width: 25%;
     background-color: #141414;
 }
 
-.photo img {
+.photos-container .photo img {
     transition: opacity 0.3s;
     object-fit: cover;
     width: 100%;
@@ -399,19 +399,19 @@ li.glide__slide div.bg div img {
 }
 
 @media (max-width: 1280px) {
-    .photo {
+    .photos-container .photo {
         width: 33.3%;
     }
 }
 
 @media (max-width: 1024px) {
-    .photo {
+    .photos-container .photo {
         width: 50%;
     }
 }
 
 @media (max-width: 840px) {
-    .photo {
+    .photos-container .photo {
         width: 100%;
     }
 
@@ -440,17 +440,17 @@ li.glide__slide div.bg div img {
     flex-wrap: wrap;
 }
 
-.photo-container {
+.paiting-container .photo-container {
     max-width: 50%;
     display: block;
     position: relative;
 }
 
-.photo-container .photo {
+.paiting-container .photo-container .photo {
     width: 100%;
 }
 
-.description-container {
+.paiting-container .description-container {
     max-width: 50%;
     display: block;
     position: relative;
@@ -458,7 +458,7 @@ li.glide__slide div.bg div img {
     padding-right: 2.5%;
 }
 
-.description-container>h1 {
+.paiting-container .description-container>h1 {
     padding-top: 15rem;
     padding-bottom: 0rem;
 }
@@ -472,17 +472,17 @@ li.glide__slide div.bg div img {
         padding-bottom: 0rem;
     }
 
-    .photo-container {
+    .paiting-container .photo-container {
         max-width: 100%;
     }
 
-    .description-container {
+    .paiting-container .description-container {
         max-width: 100%;
         padding-left: 5%;
         padding-right: 5%;
     }
 
-    .description-container:after {
+    .paiting-container .description-container:after {
         content: ". . .";
         width: 100%;
         text-align: center;
@@ -491,12 +491,104 @@ li.glide__slide div.bg div img {
         padding-bottom: 3rem;
     }
 
-    .description-container>h1 {
+    .paiting-container .description-container>h1 {
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-bottom: 0.5rem;
     }
 }
+
+/**
+ * Blogs
+ */
+ 
+.blog:first-child {
+    padding-top: 1.5rem;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+}
+
+.blog .image-container {
+    position: relative;
+    background-color: #141414;
+    margin: 10% 0 0 10%;
+}
+
+.blog .image-container img {
+    transition: opacity 0.3s;
+    object-fit: cover;
+    width: 100%;
+    opacity: 1;
+}
+
+.blog .image-container:hover img {
+    opacity: 0.5;
+}
+
+.blog .image-container .blur {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
+    backdrop-filter: saturate(180%) blur(15px);
+    color: white;
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blog .image-container:hover .blur {
+    opacity: 1;
+}
+
+.blog .description-container {
+    position: relative;
+    padding: 20% 10% 10% 10%;
+}
+
+.blog .description-container>h1 {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+
+@media (max-width: 1600px) {
+    .blog {
+        grid-template-columns: 1fr 1fr;        
+    }
+
+    .blog .image-container {
+        margin: 10% 0 0 5%;
+    }
+
+    .blog .description-container {
+        padding: 15% 5% 5% 5%;
+    }
+}
+
+@media (max-width: 840px) {
+    .blog {
+        grid-template-columns: 1fr;
+    }
+
+    .blog .image-container {
+        margin: 5% 2.5% 0 2.5%;
+    }
+
+    .blog .description-container {
+        padding: 5% 2.5% 5% 2.5%;
+    }
+}
+
 
 /**
  * Grids
