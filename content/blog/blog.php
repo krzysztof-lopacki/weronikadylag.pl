@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$title = "Weronika Dyląg | Paintings";
+$title = "Weronika Dyląg | Blog";
 include "/blocks/head.php";
 ?>
 

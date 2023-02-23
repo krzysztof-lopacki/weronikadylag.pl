@@ -72,7 +72,7 @@ include "/blocks/head.php";
                             have had a preference towards warm colours and cold with warm undertones and I have chosen deep hue
                             cadmium yellow, neon pink and phthalo turquoise based on my preference. It was a psychological process for
                             me and most of my works are based on these three colours although, later on I decided to add crimson red
-                            (see <a href="red.html">red</a>).</p>
+                            (see <a href="/blog/exploring-red">red</a>).</p>
                         <p>But by choosing not only the colours – yellow, pink/red and turquoise but their shades/luminosity, I was
                             choosing consciously shades that will be bright. Shades that will have some life and energy in them.
                             Shades that lift you up.</p>
