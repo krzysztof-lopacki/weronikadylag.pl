@@ -16,7 +16,7 @@ include "/blocks/head.php";
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE BLOGS
                 $blogs = [
                     "purpose-of-art",
-                    "red",
+                    "exploring-red",
                     "paint-folding",
                     "inspiration",
                     "colour-palette",
