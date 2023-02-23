@@ -1,4 +1,8 @@
+<?php
+    $isSandbox = strpos($_SERVER["SERVER_NAME"], "sandbox") !== false;
+?>
 <head>
+  <?php if (!$isSandbox) { ?>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4XV92TTDJ"></script>
   <script>
@@ -11,6 +15,7 @@
 
     gtag('config', 'G-H4XV92TTDJ');
   </script>
+  <?php } ?>
 
   <script>
     window.addEventListener('pageshow', (event) => {
