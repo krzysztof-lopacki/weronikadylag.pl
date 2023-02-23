@@ -27,7 +27,7 @@ include "/blocks/head.php";
                 ?>
                     <div class="image-container">
                         <a href="/blog/<?= $blog ?>">
-                            <img src="/content/blog/<?= $blog ?>/summary.jpg" />
+                            <img src="/content/blog/<?= $blog ?>/images/summary.jpg" />
                             <div class="blur p-3">Read full article ></div>
                         </a>
                     </div>

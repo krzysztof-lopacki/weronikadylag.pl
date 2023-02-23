@@ -7,7 +7,7 @@ RewriteRule ^artist(/*)(.*)$ /content/artist/artist.php
 RewriteRule ^photography(/*)(.*)$ /content/photography/photography.php
 RewriteRule ^paintings(/*)(.*)$ /content/paintings/paintings.php?query=$2
 RewriteRule ^blog(/*)$ /content/blog/blog.php
-RewriteRule ^blog(/*)(.*)$ /content/blog/$2/entry.php
+RewriteRule ^blog(/*)(.*)$ /content/blog/$2/full.php
 RewriteRule ^jonitaco/jonitaco(.*)$ http://jonitaco.weronikadylag.pl/$1 [L,R=301]
 
 </IfModule>
