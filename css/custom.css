@@ -464,18 +464,6 @@ li.glide__slide div.bg div img {
     padding-bottom: 0rem;
 }
 
-.available {
-    background-color: #2fadef;
-    padding: 4px 10px 4px 10px;
-    float: left;
-    transform: skewX(-15deg);
-}
-
-.available p {
-    transform: skewX(15deg);
-    color: #ffffff;
-}
-
 @media (max-width: 840px) {
     .portfolio:first-child {
         padding-top: 1.5rem;
