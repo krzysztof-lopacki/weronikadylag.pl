@@ -21,7 +21,10 @@
         </li>      
         <li class="nav-item">
             <a class="nav-link" href="/blog">blog</a>
-        </li>       
+        </li>     
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/w_dylag/">@ instagram</a>
+        </li>            
         <li class="nav-item">
             <a class="nav-link" href="/contact">contact</a>
         </li>
