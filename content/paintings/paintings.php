@@ -3,6 +3,7 @@
 
 <?php
 $title = "Weronika Dyląg | Paintings";
+$siteDescription = "Discover colorful abstract acrylic paintings on linen canvases.";
 include "/blocks/head.php";
 ?>
 

@@ -1,5 +1,9 @@
 <?php
     $isSandbox = strpos($_SERVER["SERVER_NAME"], "sandbox") !== false;
+
+    if (empty($siteDescription)) {
+      $siteDescription = "Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings.";
+    }
 ?>
 <head>
   <meta charset="UTF-8">
@@ -10,14 +14,14 @@
   <meta property="og:site_name" content="www.weronikadylag.pl"/>
   <meta property="og:title" content="<?= $title ?>"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
+  <meta property="og:description" content="<?= $siteDescription ?>"/>
   <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
   <meta property="og:image:type" content="image/jpg" />
   <meta itemprop="name" content="<?= $title ?>"/>
-  <meta itemprop="description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
+  <meta itemprop="description" content="<?= $siteDescription ?>"/>
   <meta name="twitter:title" content="<?= $title ?>"/>
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings." />    
+  <meta name="twitter:description" content="<?= $siteDescription ?>" />    
 
   <?php if (!$isSandbox) { ?>
   <!-- Google tag (gtag.js) -->

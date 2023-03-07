@@ -3,6 +3,7 @@
 
 <?php
 $title = "Weronika Dyląg | Blog";
+$siteDescription = "Learn more about the art and the artist.";
 include "/blocks/head.php";
 ?>
 

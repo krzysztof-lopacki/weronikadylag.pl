@@ -3,6 +3,7 @@
 
 <?php
 $title = "Weronika Dyląg | About artist";
+$siteDescription = "Read bio, artist statement and the list of expositions.";
 include "/blocks/head.php";
 ?>
 
