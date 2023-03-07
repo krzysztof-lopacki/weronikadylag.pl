@@ -2,6 +2,28 @@
     $isSandbox = strpos($_SERVER["SERVER_NAME"], "sandbox") !== false;
 ?>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><?php print $title; ?></title>
+
+  <meta property="og:site_name" content="Weronika Dyląg | Artist"/>
+  <meta property="og:title" content="Weronika Dyląg | Artist"/>
+  <meta property="og:url" content="https://www.weronikadylag.pl"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
+  <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
+  <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
+  <meta property="og:image:alt" content="Photo of Weronika Dyląg with a painting in the background." />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta itemprop="name" content="Weronika Dyląg | Artist"/>
+  <meta itemprop="url" content="https://www.weronikadylag.pl"/>
+  <meta itemprop="description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
+  <meta name="twitter:title" content="Weronika Dyląg | Artist"/>
+  <meta name="twitter:url" content="https://www.weronikadylag.pl"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings." />    
+
   <?php if (!$isSandbox) { ?>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4XV92TTDJ"></script>
@@ -24,26 +46,6 @@
       }
     });
   </script>
-
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><?php print $title; ?></title>
-
-  <meta property="og:site_name" content="Weronika Dyląg | Artist"/>
-  <meta property="og:title" content="Weronika Dyląg | Artist"/>
-  <meta property="og:url" content="https://www.weronikadylag.pl"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
-  <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
-  <meta itemprop="name" content="Weronika Dyląg | Artist"/>
-  <meta itemprop="url" content="https://www.weronikadylag.pl"/>
-  <meta itemprop="description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
-  <meta name="twitter:title" content="Weronika Dyląg | Artist"/>
-  <meta name="twitter:url" content="https://www.weronikadylag.pl"/>
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings." />    
   
   <link href="/css/main.bundle.css" rel="stylesheet" type="text/css">
   <link href="/css/custom.css" rel="stylesheet" type="text/css">
