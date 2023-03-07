@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-$title = "Corbet | Weronika Dyląg";
+$title = "Weronika Dyląg | Artist";
 include "blocks/head.php";
 ?>
 
