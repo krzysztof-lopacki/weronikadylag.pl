@@ -8,16 +8,16 @@
   <title><?php print $title; ?></title>
 
   <meta property="og:site_name" content="www.weronikadylag.pl"/>
-  <meta property="og:title" content="<?= $titile ?>"/>
+  <meta property="og:title" content="<?= $title ?>"/>
   <meta property="og:url" content="https://www.weronikadylag.pl"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
   <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
   <meta property="og:image:type" content="image/jpg" />
-  <meta itemprop="name" content="<?= $titile ?>"/>
+  <meta itemprop="name" content="<?= $title ?>"/>
   <meta itemprop="url" content="https://www.weronikadylag.pl"/>
   <meta itemprop="description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings."/>
-  <meta name="twitter:title" content="<?= $titile ?>"/>
+  <meta name="twitter:title" content="<?= $title ?>"/>
   <meta name="twitter:url" content="https://www.weronikadylag.pl"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:description" content="Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings." />    
