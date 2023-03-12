@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><?php print $title; ?></title>
+  <meta name="description" content="<?= $siteDescription ?>"/>
 
   <meta property="og:site_name" content="www.weronikadylag.pl"/>
   <meta property="og:title" content="<?= $title ?>"/>
@@ -17,8 +18,7 @@
   <meta property="og:description" content="<?= $siteDescription ?>"/>
   <meta property="og:image" content="https://www.weronikadylag.pl/images/weronika-dylag.jpg" />
   <meta property="og:image:type" content="image/jpg" />
-  <meta itemprop="name" content="<?= $title ?>"/>
-  <meta itemprop="description" content="<?= $siteDescription ?>"/>
+  
   <meta name="twitter:title" content="<?= $title ?>"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:description" content="<?= $siteDescription ?>" />    
