@@ -3,11 +3,18 @@
 
 <head>
 <?php
+$requestedPainting = $_GET["query"];
+if (!empty($requestedPainting)) {
+?>
+  <link rel="canonical" href="https://www.weronikadylag.pl/paintings" />
+<?php
+}
+
 $title = "Weronika Dyląg | Paintings";
 $siteDescription = "Discover colorful abstract acrylic paintings on linen canvases.";
 include "/blocks/head.php";
 ?>
-</head>
+<head>
 
 <body>
     <?php include "/blocks/header.php"; ?>
