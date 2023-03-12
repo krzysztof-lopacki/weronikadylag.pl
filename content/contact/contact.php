@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 $title = "Weronika Dyląg | Contact";
 $siteDescription = "Get in touch via phone or mail.";
 include "/blocks/head.php";
 ?>
+</head>
 
 <body class="contact">
   <?php

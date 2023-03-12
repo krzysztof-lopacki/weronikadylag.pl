@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 $title = "Weronika Dyląg | Blog";
 $siteDescription = "Learn more about the art and the artist.";
 include "/blocks/head.php";
 ?>
+</head>
 
 <body>
     <?php include "/blocks/header.php"; ?>

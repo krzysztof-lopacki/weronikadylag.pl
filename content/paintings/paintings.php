@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 $title = "Weronika Dyląg | Paintings";
 $siteDescription = "Discover colorful abstract acrylic paintings on linen canvases.";
 include "/blocks/head.php";
 ?>
+</head>
 
 <body>
     <?php include "/blocks/header.php"; ?>

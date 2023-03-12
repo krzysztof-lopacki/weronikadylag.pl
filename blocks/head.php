@@ -5,7 +5,7 @@
       $siteDescription = "Weronika Dyląg is a contemporary abstract painter focused on delivering positive emotions and self-discovery through paintings.";
     }
 ?>
-<head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -70,5 +70,3 @@
     ml('account', '248453');
   </script>
   <!-- End MailerLite Universal -->
-
-</head>

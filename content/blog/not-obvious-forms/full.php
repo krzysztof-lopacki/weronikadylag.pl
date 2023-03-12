@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 $title = "Weronika Dyląg | Not obvious forms";
 include "/blocks/head.php";
 ?>
+</head>
 
 <body>
     <?php include "/blocks/header.php"; ?>

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 <?php
 $title = "Weronika Dyląg | Artist";
-include "blocks/head.php";
+include "/blocks/head.php";
 ?>
+</head>
 
 <body class="home">
   <?php include "blocks/header.php"; ?>
