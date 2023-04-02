@@ -2,9 +2,4 @@ User-agent: *
 Sitemap: https://www.weronikadylag.pl/sitemap.xml
 
 Disallow: /blocks/
-Disallow: /css/
-Disallow: /favicon/
-Disallow: /fonts/
-Disallow: /scripts/
 Disallow: /templates/
-Disallow: /content/downloads/
