@@ -25,6 +25,8 @@ include "/blocks/head.php";
                 <?php
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
                 $allPaintings = [
+                    "estranged",
+                    "suvienage",
                     "to-explore",
                     "inner-self",
                     "in-the-dark",
