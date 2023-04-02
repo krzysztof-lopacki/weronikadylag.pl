@@ -1,8 +1,8 @@
 <header class="fixed-top <?= $headerClasses ?>">
     <div class="navbar">
         <a class="navbar-brand" href="/">
-            <img class="default" alt="Weronika Dyląg" src="/images/logo-dark.svg" style="width: 216px; height: 52px;">
-            <img class="inverted" alt="Weronika Dyląg" src="/images/logo-light.svg" style="width: 216px; height: 52px;"></a>
+            <img class="default" alt="Weronika Dyląg" src="/images/logo-dark.svg" style="height: 52px;">
+            <img class="inverted" alt="Weronika Dyląg" src="/images/logo-light.svg" style="height: 52px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><span class="toggle-label">Menu</span><span
                 class="toggle-label-close">Close</span><span class="toggle-icon"><span class="line"></span><span class="line"></span></span></button>
     </div>
