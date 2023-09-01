@@ -60,7 +60,7 @@ include "/blocks/head.php";
                   <p><strong>Mail</strong></p>
                 </td>
                 <td>
-                  <p>weronika.dylag@email.com</p>
+                  <p>weronika.dylag@gmail.com</p>
                 </td>
               </tr>
               <tr>
