@@ -28,6 +28,7 @@ include "/blocks/head.php";
                     "the-attractor",
                     "entropy",
                     "chaos-in-order",
+                    "rebirth",
                     "estranged",
                     "suvienage",
                     "to-explore",
