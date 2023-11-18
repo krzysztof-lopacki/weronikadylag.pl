@@ -26,11 +26,14 @@ include "/blocks/head.php";
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
                 $allPaintings = [
                     "the-attractor",
+					"nonlinear",
                     "entropy",
                     "chaos-in-order",
                     "rebirth",
                     "estranged",
                     "suvienage",
+					"close",
+					"entity",
                     "to-explore",
                     "inner-self",
                     "in-the-dark",
