@@ -43,7 +43,11 @@ include "/blocks/head.php";
 
         <div class="row">
           <div class="col-lg-8 offset-lg-2">
-            <h2>If interested in purchase<br>please contact or check <a href="https://www.artsper.com/sg/contemporary-artists/poland/83514/weronika-dylag">Artspare</a> &amp; <a href="https://www.artsy.net/artist/weronika-dylag">Artsy</a>.</h2>
+            <h2>If interested in purchase<br>please contact or check 
+				<a href="https://www.singulart.com/en/artist/weronika-dyl%C4%85g-36208">Singulart</a>,
+				<a href="https://www.artmajeur.com/weronika-dylag">Artmajeur</a>,
+				<a href="https://www.artsper.com/sg/contemporary-artists/poland/83514/weronika-dylag">Artspare</a> &amp; <a href="https://www.artsy.net/artist/weronika-dylag">Artsy</a>.
+			</h2>
             <div class="border-bottom my-5"></div>
             <p><strong>Corbet<br />Weronika Dyląg</strong><br />Chodakowska 53/57<br />Warszawa</p>
             <table class="my-5">
@@ -71,6 +75,39 @@ include "/blocks/head.php";
                   <p><a href="https://www.instagram.com/w_dylag/">@w_dylag</a>, <a href="https://www.instagram.com/wero_pics/">@wero_pics</a></p>
                 </td>
               </tr>
+			  <tr><td>&nbsp;</td></tr>			  
+			  <tr>
+                <td>
+                  <p><strong>Singulart</strong></p>
+                </td>
+                <td>
+                  <p><a href="https://www.singulart.com/en/artist/weronika-dyląg-36208/">https://www.singulart.com/en/artist/weronika-dyląg-36208</a></p>
+                </td>
+              </tr>
+			  <tr>
+                <td>
+                  <p><strong>Artmajeur</strong></p>
+                </td>
+                <td>
+                  <p><a href="https://www.artmajeur.com/weronika-dylag/">https://www.artmajeur.com/weronika-dylag</a></p>
+                </td>
+              </tr>			
+			  <tr>
+                <td>
+                  <p><strong>Artsy</strong></p>
+                </td>
+                <td>
+                  <p><a href="https://www.artsy.net/artist/weronika-dylag/">https://www.artsy.net/artist/weronika-dylag</a></p>
+                </td>
+              </tr>				  
+			  <tr>
+                <td>
+                  <p><strong>Artspare</strong></p>
+                </td>
+                <td>
+                  <p><a href="https://www.artsper.com/sg/contemporary-artists/poland/83514/weronika-dylag/">https://www.artsper.com/sg/contemporary-artists/poland/83514/weronika-dylag</a></p>
+                </td>
+              </tr>				  
             </table>
           </div>
         </div>
