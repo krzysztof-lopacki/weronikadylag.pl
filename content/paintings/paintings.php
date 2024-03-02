@@ -25,6 +25,9 @@ include "/blocks/head.php";
                 <?php
                 // EDIT THIS LIST TO ADD/REMOVE/CHANGE ORDER OF THE PAINTINGS!!!
                 $allPaintings = [
+                    "dissolution",
+                    "chaotic-harmony",
+                    "magic-happens",
                     "the-attractor",
 					"nonlinear",
                     "entropy",
