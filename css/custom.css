@@ -500,6 +500,24 @@ li.glide__slide div.bg div img {
     }
 }
 
+@media (max-width: 768px) {
+    .paiting-container .massive {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .paiting-container .massive {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .paiting-container h3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
+
 /**
  * Blogs
  */
